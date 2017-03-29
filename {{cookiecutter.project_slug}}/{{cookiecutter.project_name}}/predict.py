@@ -41,3 +41,6 @@ class LogRegPred(Predict):
     def output(self):
         return luigi.LocalTarget(self.output_root + "/logreg_predictions.csv")
 
+
+if __name__ == "__main__":
+    luigi.run()
