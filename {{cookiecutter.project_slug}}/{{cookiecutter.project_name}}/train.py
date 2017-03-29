@@ -10,8 +10,8 @@ from sklearn.model_selection import KFold
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.externals import joblib
-from {{cookiecutter.repo_name}}.inputs import KaggleInputFile
-from {{cookiecutter.repo_name}}.base import BaseTask
+from {{cookiecutter.project_name}}.inputs import KaggleInputFile
+from {{cookiecutter.project_name}}.base import BaseTask
 
 
 logger = logging.getLogger('luigi-interface')

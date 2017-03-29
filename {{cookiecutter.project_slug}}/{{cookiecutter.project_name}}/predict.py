@@ -5,9 +5,9 @@ import pandas as pd
 import numpy as np
 import sklearn.metrics as metrics
 from sklearn.externals import joblib
-from {{cookiecutter.repo_name}}.base import BaseTask
-from {{cookiecutter.repo_name}}.train import GetScaler, LogReg
-from {{cookiecutter.repo_name}}.inputs import KaggleInputData
+from {{cookiecutter.project_name}}.base import BaseTask
+from {{cookiecutter.project_name}}.train import GetScaler, LogReg
+from {{cookiecutter.project_name}}.inputs import KaggleInputData
 
 
 logger = logging.getLogger('luigi-interface')
