@@ -1,0 +1,3 @@
+export PYTHONPATH=~/repos/personal/kaggle/mm2017
+export LUIGI_CONFIG_PATH=~/repos/personal/kaggle/mm2017/mmpredict/luigi.cfg
+python -m luigi --module mmpredict.trueskill Predict

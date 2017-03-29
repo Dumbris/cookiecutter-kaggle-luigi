@@ -1,0 +1,5 @@
+include README.rst
+include thuuzlinkage/configs/*.yaml
+include thuuzlinkage/helpers/*
+include tests/*
+include thuuzlinkage/models/*.pkl

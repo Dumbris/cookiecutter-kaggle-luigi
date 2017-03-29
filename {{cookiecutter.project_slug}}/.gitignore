@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+.cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+.idea/
+logs/
+bin/
+lib/
+include/
+.coverage
+pip-selfcheck.json
+data/
+output_data/
